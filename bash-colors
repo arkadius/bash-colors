@@ -36,6 +36,12 @@ underline="\e[4m"
 reverse="\e[7m"
 strike="\e[9m"
 
+resetbold="\e[21m"
+resetitalics="\e[23m"
+resetunderline="\e[24m"
+resetreverse="\e[27m"
+resetstrike="\e[29m"
+
 reset="\e[m"
 
 function colorize {
