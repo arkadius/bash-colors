@@ -23,6 +23,8 @@ If you want to have available markups always after system startup just add `sour
 
 To check all possible colors and formats run `./test` or take a look at result:
 
+![screenshot](https://github.com/arkadius/bash-colors/blob/screenshot/screenshot.png)
+
 ## License
 
 The bash-colors is released under version 2.0 of the Apache License.
