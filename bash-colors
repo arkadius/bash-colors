@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Copyright 2015 the original author or authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+red="\e[91m"
+green="\e[92m"
+yellow="\e[93m"
+blue="\e[94m"
+magenta="\e[95m"
+cyan="\e[96m"
+gray="\e[37m"
+
+dred="\e[31m"
+dgreen="\e[32m"
+dyellow="\e[33m"
+dblue="\e[34m"
+dmagenta="\e[35m"
+dcyan="\e[36m"
+dgray="\e[90m"
+
+bold="\e[1m"
+italics="\e[3m"
+underline="\e[4m"
+reverse="\e[7m"
+strike="\e[9m"
+
+reset="\e[m"
+
+function colorize {
+  while read line; do
+      eval echo -e \""$line"\"
+  done
+}
