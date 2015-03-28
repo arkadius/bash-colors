@@ -1,7 +1,7 @@
 # bash-colors
 
 This is a simple script providing markup-like syntax for colorizing your scripts.<br>
-The idea was borrowed from [SOF](http://stackoverflow.com/a/5947802)<br>
+The idea was inspired by [SOF post](http://stackoverflow.com/a/5947802)<br>
 As a knowledge base for possible variants of ascii colors and formats was used [blog post](http://misc.flogisoft.com/bash/tip_colors_and_formatting).
 
 ## Usage
