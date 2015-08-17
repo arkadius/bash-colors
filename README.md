@@ -1,5 +1,7 @@
 # bash-colors
 
+[![Join the chat at https://gitter.im/arkadius/bash-colors](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/arkadius/bash-colors?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a simple script providing markup-like syntax for colorizing your scripts.<br>
 The idea was inspired by [SOF post](http://stackoverflow.com/a/5947802)<br>
 As a knowledge base for possible variants of ascii colors and formats was used [blog post](http://misc.flogisoft.com/bash/tip_colors_and_formatting).
